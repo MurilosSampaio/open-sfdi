@@ -54,7 +54,7 @@ The GUI is going to open from the main.py after loading the machine learning mod
 
 First you must capture the reference phantom values and then the samples images. 
 
-(note, the picamera sometimes needs some distortion correction or calibration)
+(note, the picamera sometimes needs some distortion correction or calibration, the models use a 20 mm-1 spatial frequency, make sure to ajust the images to have the correct distance between the projections fringes)
 
 ### Acknowledgments
 
