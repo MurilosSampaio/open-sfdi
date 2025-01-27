@@ -24,15 +24,14 @@ The code enables the generation of graphs and analysis of tissue optical propert
 
 - **Raspberry Pi OS**
 - **Python 3.8+**
-- **Picamera2 Python Module**
-- **OpenCV**
-- **NumPy**
-- **SciPy**
-- **Matplotlib**
-- **Tkinter**
-- **Additional Python Libraries:**
-  - `scikit-learn` 
-  - `pandas` 
+- Picamera2 Python Module
+- `OpenCV`
+- `NumPy`
+- `SciPy`
+- `Matplotlib`
+- `Tkinter`
+- `scikit-learn` 
+- `pandas` 
 
 ## Installation
 
