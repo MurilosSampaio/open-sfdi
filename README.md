@@ -8,20 +8,6 @@ This repository contains the open-source code developed for the [Portable Spatia
 
 The code enables the generation of graphs and analysis of tissue optical properties, specifically the absorption (μa) and reduced scattering (μs’) coefficients, using data acquired from the SFDI system. The system leverages a Raspberry Pi 4B, an HY300 LCD projector, and a Raspberry Pi OV5647 camera module to perform in-vivo measurements of tissue optical properties.
 
-## Table of Contents
-
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Data Acquisition](#data-acquisition)
-  - [Data Processing](#data-processing)
-  - [Generating Graphs](#generating-graphs)
-- [Calibration](#calibration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-
 ## Requirements
 
 ### Hardware
@@ -55,3 +41,22 @@ The code enables the generation of graphs and analysis of tissue optical propert
    ```bash
    git clone https://github.com/MurilosSampaio/open-sfdi.git
    cd open-sfdi
+
+   mkdir reference_images
+   mkdir saved_pictures
+   mkdir results
+   
+## Usage
+
+Run the main.py file in a system with double screen (being one of the screns a projector), you must have a picamera installed in the raspberry.
+
+The GUI is going to open from the main.py after loading the machine learning models. In the code you can change to calculate using the Rational Functions or the Machine Learning Models.
+
+First you must capture the reference phantom values and then the samples images. 
+
+(note, the picamera sometimes needs some distortion correction or calibration)
+
+### Acknowledgments
+
+- Fundamentals: This project was financed by Fundação de Amparo à Pesquisa do Estado de S. Paulo – FAPESP, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES), and the National Council for Scientific and Technological Development (CNPq).
+- Special Thanks: Arthur Melo de Oliveira for assistance in modeling and printing the equipment structure.
