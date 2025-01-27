@@ -1,7 +1,5 @@
 # Portable Spatial Frequency Domain Imaging (SFDI) Device
 
-![SFDI Device](https://github.com/MurilosSampaio/open-sfdi/blob/main/images/device_setup.png)
-
 ## Overview
 
 This repository contains the open-source code developed for the [Portable Spatial Frequency Domain Imaging Device](https://github.com/MurilosSampaio/open-sfdi) as described in the article:
